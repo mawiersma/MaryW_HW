@@ -1,0 +1,143 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-image: url("img/plaid3.jpg");
+    }
+    nav {
+        background-color: rgb(88, 88, 88);
+        overflow: hidden;
+        background-repeat: repeat-x;
+        display: block;
+    }
+    .main-nav {
+        color: rgb(255, 187, 132);
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        float: right;
+        z-index: 1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        font-family: "Roboto", sans-serif;
+    }
+    .dropbutton {
+        background-color:  rgba(0, 0, 0, 0.5);
+        color:rgb(255, 187, 132);
+        cursor: pointer;
+        display: center;
+        float: right;
+        font-family: "Roboto", sans-serif;
+        padding: 20px;
+        font-size: 24px;
+    }
+    .drop-nav {
+        text-align: center;
+        background-color:  rgba(0, 0, 0, 0.8);
+        font-family: "Roboto", sans-serif;
+        position: absolute;
+        /* margin-top: 45px; */
+        float: right;
+        z-index: 1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        min-width: 200px;
+        display: none;
+        list-style: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .drop-nav a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 187, 132);
+        font-size: 20px;
+        text-align: center;
+    }
+    .drop-nav li a {
+        padding: 20px;
+        display: block;
+    }
+    .drop-nav li a:hover {
+        background-color:  rgba(0,0,0,0.5);
+    }
+    .main-nav:hover .drop-nav {
+        display: block;
+        margin-top:67px;
+    }
+    .main-nav:hover .dropbutton {
+        background-color: rgb(201, 133, 78);
+        color: #333;
+        padding: 20px;
+    }
+    h1 {
+        color: rgb(255, 187, 132);
+        float: left;
+        font-family: "Roboto", sans-serif;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    .cakephoto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        box-sizing: border-box;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.5);
+        border-radius: .5%;
+    }
+    h4 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+    }
+    .card-ingredients {
+        box-sizing: border-box;
+	    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.5);
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    padding: 35px 35px 35px 35px;
+	    font-family: "Roboto", sans-serif;
+        background: linear-gradient(rgba(179, 158, 139, 0.849), rgba(0, 0, 0, .5)), url(img/bowleggs2.jpg);
+        background-size: cover;
+	    width:80%;
+        position: relative;
+        margin-top:20px;
+        color: rgb(255, 255, 255);
+        line-height: 35px;
+        border-radius: .5%;
+    }
+
+    .unordered-list {
+        list-style-type: circle;
+    }
+    .card-directions {
+        box-sizing: border-box;
+	    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.5);
+	    margin-left: auto;
+        margin-right: auto;
+	    display: block;
+	    padding: 35px 35px 35px 35px;
+	    font-family: "Roboto", sans-serif;
+	    background: linear-gradient(rgba(179, 158, 139, 0.849), rgba(0, 0, 0, .5)), url(img/cake2.jpg);
+        background-size: cover;
+	    width:80%;
+        position: relative;
+        margin-top:50px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 35px;
+        border-radius: .5%;
+    }
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .ordered-list {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .ending {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        text-align: center;
+    }
